@@ -1,0 +1,1 @@
+(function(){$(function(){return $("[role=navigation] a, .teaser .button").click(function(){var e;return e=$("body").find($(this).attr("href").split("/").pop()),$("html, body").animate({scrollTop:e.offset().top},750),!1})})}).call(this);
